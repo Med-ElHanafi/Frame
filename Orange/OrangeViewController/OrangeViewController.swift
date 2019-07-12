@@ -8,13 +8,25 @@
 
 import UIKit
 
-class OrangeViewController: UIViewController {
+public class OrangeViewController: UIViewController {
 
-    override func viewDidLoad() {
+    public init() {
+        super.init(nibName: String(describing: type(of: self)), bundle: Bundle.orange)
+    }
+
+    required init?(coder aDecoder: NSCoder) {
+        fatalError("Dont use this view controller")
+    }
+    
+    override public func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
         
     }
 
+    @IBAction func goToAction(_ sender: UIButton) {
+        let purpleVC = PurpleViewController()
+        self.present(purpleVC, animated: true, completion: nil)
+    }
 }
