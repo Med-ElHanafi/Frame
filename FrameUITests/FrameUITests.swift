@@ -38,7 +38,6 @@ class FrameUITests: XCTestCase {
         snapshot("orangeScreen")
         app.buttons["Go To Purple"].tap()
         snapshot("purpleScreen")
-        
     }
 
 }
