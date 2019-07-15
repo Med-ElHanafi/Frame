@@ -14,6 +14,11 @@
 			<key>orderHint</key>
 			<integer>1</integer>
 		</dict>
+		<key>FrameUITests.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
 		<key>Orange.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
@@ -22,7 +27,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>FA0CDEB522D897B400AF79D9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>FA0CDECF22D8986C00AF79D9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FA3B606A22DC8DB40056DA6C</key>
 		<dict>
 			<key>primary</key>
 			<true/>
